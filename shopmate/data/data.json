@@ -1,0 +1,36 @@
+{
+    "products":[
+        {
+            "id":10001,
+            "name":"Hp notebook",
+            "price":99,
+            "in_stock":true
+        },
+        {
+            "id":10002,
+            "name":"Apple tab",
+            "price":199,
+            "in_stock":true
+        },
+        {
+            "id":10003,
+            "name":"ASUS tuff gaming",
+            "price":229,
+            "in_stock":false
+        },
+        {
+            "id":10004,
+            "name":"lenovo ideapad",
+            "price":499,
+            "in_stock":false
+    
+        },
+        {
+            "id":10005,
+            "name":"chromebook",
+            "price":600,
+            "in_stock":true
+    
+        }
+    ]
+}

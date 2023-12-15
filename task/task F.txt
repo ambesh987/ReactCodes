@@ -1,0 +1,52 @@
+-- Resturant Details
+
+
+Part 1:
+
+
+Create this component RestaurantDetails
+pass an object data as prop
+Create the object also with relevant information (example: should take card payment methods, total votes, reviews, cost for one, categories etc.) (payment method and categories are mandatory)
+Make 20 of these objects
+Use map method to list all the objects
+import from the json file (example: import data from './data.json), and initialise as default value and store to state
+Write custom css for this
+user should be able to add new restaurants
+use Forms, and use a single event handler
+for images, for now you may just accept the url directly
+
+
+PART-II
+Create a button to sort the restaurants with ratings
+There should be 4 buttons. 1 star, 2 star, 3 star and 4 star
+4 star shows restaurants above 4
+3 star shows restaurants above 3
+2 star shows restaurants above 2
+1 star shows restaurants above 1
+dont try to mutate the state, rather use chaining, like array.filter().sort().map()
+
+
+PART-III
+Create buttons for cash only restaurants, card accepted restuarants, and all
+On click of cash only button, only restaurants that accept cash should be stored.
+On click of card button, only restaurants that accept card should be stored.
+On click of all button, show all restaurants
+HINT: you can store payment methods as a key in this fromat
+
+{
+    payment_methods: {
+        card: true,
+        cash: true,
+        upi: true
+    }
+}
+
+PART-IV
+Create two buttons for sort high to low, and low to high
+on click of high to low, show restaurants from high to low cost for 2 people
+on click of low to high, show restaurants from low to high cost for 2 people
+HINT: store a key called cost_for_two
+
+Make the filter and sort work together.
+as in one should be able to see only restaurants which are above 4 stars and also in the descending order
+
